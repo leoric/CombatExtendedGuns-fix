@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="CombatExtended.PatchOperationFindMod">
-        <modName>Clutter Weapon Hands</modName>
-      </li>
+
+	<Operation Class="PatchOperationFindMod">
+    <mods>
+		  <li>Clutter Weapon Hands</li>
+    </mods>
+		<match Class="PatchOperationSequence">
+		 <operations>
 
       <li Class="PatchOperationInsert">
-        <xpath>*/WHands.ClutterHandsTDef[defName="ClutterHandsSettings"]/WeaponCompLoader/li/ThingTargets/li[.="Gun_Pistol"]</xpath>
+        <xpath>Defs/WHands.ClutterHandsTDef[defName="ClutterHandsSettings"]/WeaponCompLoader/li/ThingTargets/li[.="Gun_Pistol"]</xpath>
         <value>
           <li>CE_Gun_PSeven</li>
           <li>CE_Gun_TaurusJudge</li>
@@ -16,7 +17,7 @@
       </li>
 
       <li Class="PatchOperationInsert">
-        <xpath>*/WHands.ClutterHandsTDef[defName="ClutterHandsSettings"]/WeaponCompLoader/li/ThingTargets/li[.="Gun_BoltActionRifle"]</xpath>
+        <xpath>Defs/WHands.ClutterHandsTDef[defName="ClutterHandsSettings"]/WeaponCompLoader/li/ThingTargets/li[.="Gun_BoltActionRifle"]</xpath>
         <value>
           <li>CE_Gun_SKS</li>
           <li>CE_Gun_PTRS</li>
@@ -24,7 +25,7 @@
       </li>
 
       <li Class="PatchOperationInsert">
-        <xpath>*/WHands.ClutterHandsTDef[defName="ClutterHandsSettings"]/WeaponCompLoader/li/ThingTargets/li[.="Gun_ChargeRifle"]</xpath>
+        <xpath>Defs/WHands.ClutterHandsTDef[defName="ClutterHandsSettings"]/WeaponCompLoader/li/ThingTargets/li[.="Gun_ChargeRifle"]</xpath>
         <value>
           <li>CE_Gun_USASTwelve</li>
           <li>CE_Gun_SVD</li>
@@ -33,7 +34,7 @@
       </li>
 
       <li Class="PatchOperationAdd">
-        <xpath>*/WHands.ClutterHandsTDef[defName="ClutterHandsSettings"]/WeaponCompLoader</xpath>
+        <xpath>Defs/WHands.ClutterHandsTDef[defName="ClutterHandsSettings"]/WeaponCompLoader</xpath>
         <value>
           <li>
             <MainHand>(-0.2,0.3,-0.05)</MainHand>
@@ -85,7 +86,9 @@
           </li>
         </value>
       </li>
-    </operations>
-  </Operation>
+
+		</operations>
+		</match>
+	</Operation>
 </Patch>
 
