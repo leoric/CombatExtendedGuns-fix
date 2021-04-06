@@ -84,7 +84,7 @@
       <SwayFactor>0.91</SwayFactor>
       <Bulk>1.90</Bulk>
       <Mass>0.82</Mass>
-      <RangedWeapon_Cooldown>0.41</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.50</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>25</Steel>
@@ -105,7 +105,7 @@
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>5</magazineSize>
-        <reloadTime>3.5</reloadTime>
+        <reloadTime>4.6</reloadTime>
         <ammoSet>AmmoSet_45Colt410Bore</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes" />
