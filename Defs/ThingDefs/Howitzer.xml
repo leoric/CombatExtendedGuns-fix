@@ -40,11 +40,10 @@
       <li>PlaceWorker_ShowTurretRadius</li>
     </placeWorkers>
     <size>(3,3)</size> 
-    <recipeMaker>
-    <researchPrerequisite>
+    <researchPrerequisites>
+      <li>CE_HeavyTurret</li>
       <li>Mortars</li>
-    </researchPrerequisite>
-    </recipeMaker>
+    </researchPrerequisites>
     <minifiedDef>MinifiedThing</minifiedDef>
     <designationCategory>Security</designationCategory>
     <interactionCellOffset>(-1,0,-1)</interactionCellOffset>
@@ -75,7 +74,7 @@
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
         <hasStandardCommand>true</hasStandardCommand>
         <requireLineOfSight>false</requireLineOfSight>
-        <defaultProjectile>Bullet_155mmHowitzerShell_HE</defaultProjectile>
+        <defaultProjectile>Bullet_105mmHowitzerShell_HE</defaultProjectile>
         <warmupTime>4</warmupTime>
         <minRange>20</minRange>
         <range>1500</range>
@@ -103,7 +102,7 @@
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>1</magazineSize>
         <reloadTime>5</reloadTime>
-        <ammoSet>AmmoSet_155mmHowitzerShell</ammoSet>
+        <ammoSet>AmmoSet_105mmHowitzerShell</ammoSet>
       </li>
     </comps>
   </ThingDef>
