@@ -3,9 +3,9 @@
 
   <!-- === Base === -->
   <ThingDef ParentName="TurretMannedBase">
-    <defName>CE_Turret_Howitzer</defName>
+    <defName>CE_Artillery_Howitzer</defName>
     <label>105mm howitzer</label>
-    <description>A realtively light field artillery piece for indirect fire support.</description>
+    <description>A high caliber, relatively compact field artillery piece for indirect fire at extended ranges.</description>
     <uiIconPath>Things/Howitzer/CE_Howitzer_Icon</uiIconPath>
     <uiIconScale>0.90</uiIconScale>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
@@ -77,7 +77,7 @@
         <defaultProjectile>Bullet_105mmHowitzerShell_HE</defaultProjectile>
         <warmupTime>4</warmupTime>
         <minRange>20</minRange>
-        <range>1500</range>
+        <range>900</range>
         <burstShotCount />
         <soundCast>Mortar_LaunchA</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
