@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- === Base === -->
+  <ThingDef ParentName="TurretMannedBase">
+    <defName>CE_Artillery_Howitzer</defName>
+    <label>105mm howitzer</label>
+    <description>A high caliber, relatively compact field artillery piece for indirect fire at extended ranges.</description>
+    <uiIconPath>Things/Howitzer/CE_Howitzer_Icon</uiIconPath>
+    <uiIconScale>0.90</uiIconScale>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>Things/Howitzer/CE_Howitzer_Base</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>33500</WorkToMake>
+      <Mass>1520</Mass>
+      <Bulk>1000</Bulk>
+    </statBases>
+    <costList>
+      <Steel>450</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <tradeTags>
+      <li>CE_Turret</li>
+    </tradeTags>
+    <specialDisplayRadius>20</specialDisplayRadius>
+    <building>
+      <turretGunDef>CE_Gun_Howitzer</turretGunDef>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretBurstCooldownTime>1</turretBurstCooldownTime>
+      <spawnedConceptLearnOpportunity>CE_MortarDirectFire</spawnedConceptLearnOpportunity>
+      <turretTopDrawSize>4</turretTopDrawSize>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <size>(3,3)</size> 
+    <researchPrerequisites>
+      <li>CE_HeavyTurret</li>
+      <li>Mortars</li>
+    </researchPrerequisites>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <designationCategory>Security</designationCategory>
+    <interactionCellOffset>(-1,0,-1)</interactionCellOffset>
+  </ThingDef>
+
+  <!-- === Turret === -->
+  <ThingDef ParentName="BaseTurretGun">
+    <defName>CE_Gun_Howitzer</defName>
+    <label>105mm howitzer</label>
+    <graphicData>
+      <texPath>Things/Howitzer/CE_Howitzer_Gun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>105mm artillery gun.</description>
+    <soundInteract>Artillery_ShellLoaded</soundInteract>
+    <statBases>
+      <MarketValue>3500</MarketValue>
+      <SightsEfficiency>0.5</SightsEfficiency>
+      <RangedWeapon_Cooldown>2.71</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>TurretGun</li>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+        <requireLineOfSight>false</requireLineOfSight>
+        <defaultProjectile>Bullet_105mmHowitzerShell_HE</defaultProjectile>
+        <warmupTime>4</warmupTime>
+        <minRange>20</minRange>
+        <range>900</range>
+        <burstShotCount />
+        <soundCast>Mortar_LaunchA</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>50</muzzleFlashScale>
+        <indirectFirePenalty>0.3</indirectFirePenalty>
+        <circularError>1</circularError>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <recoilPattern>Mounted</recoilPattern>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_Charges">
+        <chargeSpeeds>
+          <li>30</li>
+          <li>50</li>
+          <li>70</li>
+          <li>90</li>
+        </chargeSpeeds>
+      </li>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>1</magazineSize>
+        <reloadTime>5</reloadTime>
+        <ammoSet>AmmoSet_105mmHowitzerShell</ammoSet>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>
