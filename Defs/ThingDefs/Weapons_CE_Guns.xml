@@ -64,6 +64,9 @@
     <weaponTags>
       <li>Gun</li>
     </weaponTags>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
   </ThingDef>
 
   <!-- ==================== Taurus Judge ==================== -->
