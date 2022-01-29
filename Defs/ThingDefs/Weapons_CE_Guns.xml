@@ -770,6 +770,7 @@
     </comps>
     <weaponTags>
       <li>SniperRifle</li>
+      <li>Bipod_DMR</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -865,6 +866,7 @@
     </comps>
     <weaponTags>
       <li>SniperRifle</li>
+      <li>Bipod_DMR</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -995,6 +997,7 @@
     </tools>
     <weaponTags>
       <li>SimpleGun</li>
+      <li>Bipod_ATR</li>
     </weaponTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
@@ -1062,6 +1065,7 @@
     </comps>
     <weaponTags>
       <li>CE_MachineGun</li>
+      <li>Bipod_LMG</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -1168,6 +1172,7 @@
     </recipeMaker>
     <weaponTags>
       <li>CE_MachineGun</li>
+      <li>Bipod_SAW</li>
     </weaponTags>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1268,6 +1273,7 @@
     </comps>
     <weaponTags>
       <li>CE_MachineGun</li>
+      <li>Bipod_LMG</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -1684,6 +1690,7 @@
     <weaponTags>
       <li>CE_MachineGun</li>
       <li>AdvancedGun</li>
+      <li>Bipod_LMG</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
@@ -1783,6 +1790,7 @@
     <weaponTags>
       <li>SniperRifle</li>
       <li>AdvancedGun</li>
+      <li>Bipod_DMR</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
