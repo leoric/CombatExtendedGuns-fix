@@ -41,7 +41,7 @@
     </placeWorkers>
     <size>(3,3)</size> 
     <researchPrerequisites>
-      <li>CE_HeavyTurret</li>
+      <li>CE_TurretHeavyWeapons</li>
       <li>Mortars</li>
     </researchPrerequisites>
     <minifiedDef>MinifiedThing</minifiedDef>
