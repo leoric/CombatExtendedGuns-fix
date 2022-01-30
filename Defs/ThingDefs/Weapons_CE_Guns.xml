@@ -116,6 +116,7 @@
     <weaponTags>
       <li>SimpleGun</li>
       <li>CE_Sidearm</li>
+      <li>Revolver</li>
     </weaponTags>
     <tools>
       <li Class="CombatExtended.ToolCE">
