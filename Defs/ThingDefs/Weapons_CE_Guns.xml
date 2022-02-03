@@ -148,7 +148,7 @@
     <techLevel>Medieval</techLevel>
     <soundInteract>Interact_Revolver</soundInteract>
     <graphicData>
-      <texPath>Things/Weapons/Flintlock</texPath>
+      <texPath>Things/Weapons/Flintlock_Pistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -238,7 +238,7 @@
     <techLevel>Medieval</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
     <graphicData>
-      <texPath>Things/Weapons/Musket</texPath>
+      <texPath>Things/Weapons/Flintlock_Musket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
