@@ -2,7 +2,7 @@
 <Defs>
 	
 	<ResearchProjectDef>
-		<defName>Gumpowder</defName>
+		<defName>Gunpowder</defName>
 		<label>gunpowder</label>
 		<description>Allows crafting flintlock weapons at the smithy bench.</description>
 		<baseCost>500</baseCost>
