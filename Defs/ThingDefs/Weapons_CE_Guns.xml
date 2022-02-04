@@ -1691,6 +1691,7 @@
     <weaponTags>
       <li>CE_MachineGun</li>
       <li>AdvancedGun</li>
+      <li>SpacerGun</li>
       <li>Bipod_LMG</li>
     </weaponTags>
     <recipeMaker>
@@ -1791,6 +1792,7 @@
     <weaponTags>
       <li>SniperRifle</li>
       <li>AdvancedGun</li>
+      <li>SpacerGun</li>
       <li>Bipod_DMR</li>
     </weaponTags>
     <recipeMaker>
@@ -1897,6 +1899,10 @@
         <li>FabricationBench</li>
       </recipeUsers>
     </recipeMaker>
+    <weaponTags>
+      <li>AdvancedGun</li>
+      <li>SpacerGun</li>
+    </weaponTags>
     <tools>
       <li Class="CombatExtended.ToolCE">
         <label>stock</label>
