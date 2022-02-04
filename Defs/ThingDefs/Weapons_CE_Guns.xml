@@ -82,7 +82,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <WorkToMake>18000</WorkToMake>
+      <WorkToMake>12000</WorkToMake>
       <Mass>3.2</Mass>
       <Bulk>6</Bulk>
       <SwayFactor>1.0</SwayFactor>
