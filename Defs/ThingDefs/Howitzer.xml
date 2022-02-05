@@ -2,7 +2,7 @@
 <Defs>
 
   <!-- === Base === -->
-  <ThingDef ParentName="TurretMannedBase">
+  <ThingDef ParentName="BaseArtilleryBuilding">
     <defName>CE_Artillery_Howitzer</defName>
     <label>105mm howitzer</label>
     <description>A high caliber, relatively compact field artillery piece for indirect fire at extended ranges.</description>
@@ -50,7 +50,7 @@
   </ThingDef>
 
   <!-- === Turret === -->
-  <ThingDef ParentName="BaseTurretGun">
+  <ThingDef ParentName="BaseArtilleryWeapon">
     <defName>CE_Gun_Howitzer</defName>
     <label>105mm howitzer</label>
     <graphicData>
@@ -62,7 +62,7 @@
     <statBases>
       <MarketValue>3500</MarketValue>
       <SightsEfficiency>0.5</SightsEfficiency>
-      <RangedWeapon_Cooldown>2.71</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>2.70</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
       <li>TurretGun</li>
@@ -78,7 +78,7 @@
         <warmupTime>4</warmupTime>
         <minRange>20</minRange>
         <range>900</range>
-        <burstShotCount />
+			  <burstShotCount>1</burstShotCount>
         <soundCast>Mortar_LaunchA</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>50</muzzleFlashScale>
@@ -87,7 +87,6 @@
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
-        <recoilPattern>Mounted</recoilPattern>
       </li>
     </verbs>
     <comps>
