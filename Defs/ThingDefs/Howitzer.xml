@@ -26,7 +26,6 @@
     <tradeTags>
       <li>CE_Turret</li>
     </tradeTags>
-    <specialDisplayRadius>20</specialDisplayRadius>
     <building>
       <turretGunDef>CE_Gun_Howitzer</turretGunDef>
       <ai_combatDangerous>true</ai_combatDangerous>
@@ -78,7 +77,7 @@
         <warmupTime>4</warmupTime>
         <minRange>20</minRange>
         <range>900</range>
-			  <burstShotCount>1</burstShotCount>
+	<burstShotCount>1</burstShotCount>
         <soundCast>Mortar_LaunchA</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>50</muzzleFlashScale>
