@@ -74,7 +74,7 @@
   <ThingDef ParentName="BaseMakeableGun">
     <defName>CE_Gun_crossbow</defName>
     <label>Crossbow</label>
-    <description>A crossbow is a type of ranged weapon in similar principle to a bow, consisting of a bow-like assembly mounted horizontally on a main frame, which is handheld in a similar fashion to the stock of a long gun.\n\nThis weapon attempt of early mankind can send a bolt even through strongest metal.</description>
+    <description>A medieval bow-like armament which launches bolts instead of arrows at relatively fast speeds. Easier to operate and more accurate than a bow in exchange of a lower fire rate.</description>
     <techLevel>Medieval</techLevel>
     <soundInteract>Bow_Large</soundInteract>
     <graphicData>
@@ -104,7 +104,7 @@
     </costList>
     <weaponTags>
       <li>NeolithicRangedHeavy</li>
-	    <li>NeolithicRangedChief</li>
+      <li>NeolithicRangedChief</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -112,7 +112,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Projectile_CrossbowBolt_Steel</defaultProjectile>
         <warmupTime>1.0</warmupTime>
-        <range>26</range>
+        <range>30</range>
         <soundCast>Shot_CE_Crossbow</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
       </li>
