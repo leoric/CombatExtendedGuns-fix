@@ -78,7 +78,7 @@
     <techLevel>Medieval</techLevel>
     <soundInteract>Bow_Large</soundInteract>
     <graphicData>
-      <texPath>Things/Weapons/Crossbow</texPath>
+      <texPath>Things/Weapons/CE_Crossbow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
