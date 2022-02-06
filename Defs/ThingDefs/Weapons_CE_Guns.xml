@@ -98,9 +98,8 @@
       <researchPrerequisite>Smithing</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <Steel>10</Steel>
-      <WoodLog>50</WoodLog>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>20</Steel>
+      <WoodLog>40</WoodLog>
     </costList>
     <weaponTags>
       <li>NeolithicRangedHeavy</li>
