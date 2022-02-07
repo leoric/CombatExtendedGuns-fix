@@ -13,7 +13,7 @@
       <texPath>Things/Howitzer/howitzerBase</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(4,4)</drawSize>
-			<shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <statBases>
       <MaxHitPoints>400</MaxHitPoints>
