@@ -69,6 +69,265 @@
     </comps>
   </ThingDef>
 
+  <!-- ==================== Crossbow ==================== -->
+
+  <ThingDef ParentName="BaseMakeableGun">
+    <defName>CE_Gun_crossbow</defName>
+    <label>Crossbow</label>
+    <description>A medieval bow-like armament which launches bolts instead of arrows at relatively fast speeds. Easier to operate and more accurate than a bow in exchange of a lower fire rate.</description>
+    <techLevel>Medieval</techLevel>
+    <soundInteract>Bow_Large</soundInteract>
+    <graphicData>
+      <texPath>Things/Weapons/CE_Crossbow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>3.2</Mass>
+      <Bulk>6</Bulk>
+      <SwayFactor>1.0</SwayFactor>
+      <ShotSpread>0.5</ShotSpread>
+      <SightsEfficiency>1</SightsEfficiency>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>20</Steel>
+      <WoodLog>40</WoodLog>
+    </costList>
+    <weaponTags>
+      <li>NeolithicRangedHeavy</li>
+      <li>NeolithicRangedChief</li>
+    </weaponTags>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_CrossbowBolt_Steel</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>30</range>
+        <soundCast>Shot_CE_Crossbow</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>1</magazineSize>
+        <reloadTime>5</reloadTime>
+        <ammoSet>AmmoSet_CrossbowBolt</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>7</power>
+          <cooldownTime>1.6</cooldownTime>
+          <armorPenetrationBlunt>0.65</armorPenetrationBlunt>
+        </li>
+      </tools>
+  </ThingDef>
+
+  <!-- ==================== Flintlock Pistol ==================== -->
+
+  <ThingDef ParentName="BaseMakeableGun">
+    <defName>CE_Gun_FlintlockPistol</defName>
+    <label>Flintlock pistol</label>
+    <description>This pistol features a smoothbore barrel and a long, wooden grip ending in a knob. As its name implies, the flintlock pistol is operated by a flintlock mechanism.</description>
+    <techLevel>Medieval</techLevel>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <graphicData>
+      <texPath>Things/Weapons/Flintlock_Pistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>3500</WorkToMake>
+      <Mass>1.25</Mass>
+      <Bulk>3.50</Bulk>
+      <ShotSpread>0.20</ShotSpread>
+      <SwayFactor>1.12</SwayFactor>
+      <SightsEfficiency>0.70</SightsEfficiency>
+      <RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
+    </statBases>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <researchPrerequisite>Gunpowder</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>20</Steel>
+      <WoodLog>10</WoodLog>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <weaponTags>
+      <li>NeolithicRangedHeavy</li>
+      <li>NeolithicRangedChief</li>
+    </weaponTags>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>1.15,1.25</DrawSize>
+        <DrawOffset>0.0,0.0</DrawOffset>
+      </li>
+    </modExtensions>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_SlowMusketBall</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>12</range>
+        <soundCast>Shot_CE_Musket</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>1</magazineSize>
+        <reloadTime>6</reloadTime>
+        <ammoSet>AmmoSet_SlowMusketBall</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.54</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.54</cooldownTime>
+        <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- ==================== Flintlock Musket ==================== -->
+
+  <ThingDef ParentName="BaseMakeableGun">
+    <defName>CE_Gun_FlintlockMusket</defName>
+    <label>Flintlock musket</label>
+    <description>An ancient pattern musket. As one of the first of its kind, it only has short range and low fire rate.</description>
+    <techLevel>Medieval</techLevel>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <graphicData>
+      <texPath>Things/Weapons/Flintlock_Musket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>4.50</Mass>
+      <Bulk>14.0</Bulk>
+      <ShotSpread>0.15</ShotSpread>
+      <SwayFactor>1.92</SwayFactor>
+      <SightsEfficiency>0.9</SightsEfficiency>
+      <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+    </statBases>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <researchPrerequisite>Gunpowder</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>60</Steel>
+      <WoodLog>20</WoodLog>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <weaponTags>
+      <li>NeolithicRangedHeavy</li>
+      <li>NeolithicRangedChief</li>
+    </weaponTags>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>1.25,1.4</DrawSize>
+        <DrawOffset>0.08,-0.05</DrawOffset>
+      </li>
+    </modExtensions>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_FastMusketBall</defaultProjectile>
+        <warmupTime>2.0</warmupTime>
+        <range>35</range>
+        <soundCast>Shot_CE_Musket</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>1</magazineSize>
+        <reloadTime>9</reloadTime>
+        <ammoSet>AmmoSet_FastMusketBall</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.02</cooldownTime>
+        <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+  </ThingDef>
+
   <!-- ==================== Taurus Judge ==================== -->
 
   <ThingDef ParentName="BaseHumanMakeableGun_CE">
