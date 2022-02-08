@@ -196,7 +196,7 @@
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>1</magazineSize>
-        <reloadTime>7</reloadTime>
+        <reloadTime>6</reloadTime>
         <ammoSet>AmmoSet_SlowMusketBall</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -286,7 +286,7 @@
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>1</magazineSize>
-        <reloadTime>10</reloadTime>
+        <reloadTime>9</reloadTime>
         <ammoSet>AmmoSet_FastMusketBall</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
