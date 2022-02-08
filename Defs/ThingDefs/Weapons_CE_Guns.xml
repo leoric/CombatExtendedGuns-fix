@@ -164,7 +164,7 @@
         <li>FueledSmithy</li>
         <li>ElectricSmithy</li>
       </recipeUsers>
-      <researchPrerequisite>Smithing</researchPrerequisite>
+      <researchPrerequisite>Gunpowder</researchPrerequisite>
     </recipeMaker>
     <costList>
       <Steel>25</Steel>
@@ -254,7 +254,7 @@
         <li>FueledSmithy</li>
         <li>ElectricSmithy</li>
       </recipeUsers>
-      <researchPrerequisite>Smithing</researchPrerequisite>
+      <researchPrerequisite>Gunpowder</researchPrerequisite>
     </recipeMaker>
     <costList>
       <Steel>65</Steel>
