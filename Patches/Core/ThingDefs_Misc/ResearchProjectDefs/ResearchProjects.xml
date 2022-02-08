@@ -5,7 +5,7 @@
         <xpath>/Defs/ResearchProjectDef[defName="Gunsmithing"]</xpath>
         <value>
 	  <hiddenPrerequisites>
-	    <li>Gumpowder</li>
+	    <li>Gunpowder</li>
 	  </hiddenPrerequisites>
         </value>
     </Operation>
