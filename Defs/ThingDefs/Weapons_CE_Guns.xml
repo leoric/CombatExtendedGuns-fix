@@ -2087,7 +2087,7 @@
     <statBases>
       <WorkToMake>25500</WorkToMake>
       <SightsEfficiency>1</SightsEfficiency>
-      <ShotSpread>0.15</ShotSpread>
+      <ShotSpread>5.0</ShotSpread>
       <SwayFactor>1.35</SwayFactor>
       <Bulk>8</Bulk>
       <Mass>5.5</Mass>
@@ -2104,7 +2104,7 @@
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-        <recoilAmount>0.85</recoilAmount>
+        <recoilAmount>0.35</recoilAmount>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Flamethrower_Prometheum</defaultProjectile>
         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
