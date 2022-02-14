@@ -29,6 +29,8 @@ This mod adds several new firearms designed to take advantage of new CE mechanic
 ### Grenade launchers
 - Milkor MGL
 - RPG-7
-- M72 LAW
 ### Other
+- 105mm Howitzer
 - Flamethrower
+- Flintlock pistol
+- Flintlock musket
