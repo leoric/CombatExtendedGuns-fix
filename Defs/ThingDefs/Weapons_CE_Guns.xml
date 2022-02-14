@@ -2107,7 +2107,7 @@
         <recoilAmount>0.35</recoilAmount>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Flamethrower_Prometheum</defaultProjectile>
-        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
         <warmupTime>1.1</warmupTime>
         <range>11</range>
         <minRange>3</minRange>
