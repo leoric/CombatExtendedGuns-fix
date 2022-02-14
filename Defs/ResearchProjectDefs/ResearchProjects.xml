@@ -3,15 +3,15 @@
 
 	<ResearchProjectDef>
 	  <defName>Gunpowder</defName>
-	  <label>Black powder weaponry</label>
-	  <description>Advancements in metallurgy allow for the creation of primitive firearms at the smithy.</description>
+	  <label>gunpowder</label>
+	  <description>Allows crafting flintlock weapons at the smithy bench.</description>
 	  <baseCost>500</baseCost>
 	  <techLevel>Medieval</techLevel>
 	  <prerequisites>
-	    <li>PlateArmor</li>			
+	    <li>Smithing</li>			
 	  </prerequisites>
-	  <researchViewX>3</researchViewX>
-	  <researchViewY>2.5</researchViewY>
+	  <researchViewX>2</researchViewX>
+	  <researchViewY>4.25</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>
