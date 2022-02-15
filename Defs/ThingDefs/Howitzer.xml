@@ -80,7 +80,7 @@
         <defaultProjectile>Bullet_105mmHowitzerShell_HE</defaultProjectile>
         <warmupTime>4</warmupTime>
         <minRange>20</minRange>
-        <range>890</range>
+        <range>898</range>
 	<burstShotCount>1</burstShotCount>
         <soundCast>Mortar_LaunchA</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
