@@ -6,6 +6,7 @@
     <defName>CE_Artillery_Howitzer</defName>
     <label>105mm howitzer</label>
     <description>A high caliber, relatively compact field artillery piece for indirect fire at extended ranges.</description>
+	<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
     <uiIconPath>Things/Howitzer/howitzer_uiIcon</uiIconPath>
     <uiIconScale>0.90</uiIconScale>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
@@ -38,7 +39,7 @@
     <placeWorkers>
       <li>PlaceWorker_NotUnderRoof</li>
       <li>PlaceWorker_TurretTop</li>
-      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <size>(3,3)</size>
     <fillPercent>0.85</fillPercent>
@@ -80,8 +81,8 @@
         <defaultProjectile>Bullet_105mmHowitzerShell_HE</defaultProjectile>
         <warmupTime>4</warmupTime>
         <minRange>20</minRange>
-        <range>898</range>
-	<burstShotCount>1</burstShotCount>
+        <range>900</range>
+		<burstShotCount>1</burstShotCount>
         <soundCast>Mortar_LaunchA</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>50</muzzleFlashScale>
