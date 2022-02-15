@@ -73,14 +73,14 @@
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
-        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
         <hasStandardCommand>true</hasStandardCommand>
         <requireLineOfSight>false</requireLineOfSight>
         <defaultProjectile>Bullet_105mmHowitzerShell_HE</defaultProjectile>
         <warmupTime>4</warmupTime>
         <minRange>20</minRange>
-        <range>900</range>
+        <range>890</range>
 	<burstShotCount>1</burstShotCount>
         <soundCast>Mortar_LaunchA</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
