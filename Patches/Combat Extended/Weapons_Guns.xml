@@ -17,4 +17,11 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="MakeDisposableRocketLauncher"]/label</xpath>
+    <value>
+      <label>make M72 LAW x5</label>
+    </value>
+  </Operation>
+
 </Patch>
