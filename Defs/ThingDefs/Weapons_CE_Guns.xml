@@ -1882,17 +1882,17 @@
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
-      <WorkToMake>50500</WorkToMake>
+      <WorkToMake>52000</WorkToMake>
       <SightsEfficiency>2.6</SightsEfficiency>
-      <ShotSpread>0.05</ShotSpread>
+      <ShotSpread>0.03</ShotSpread>
       <SwayFactor>1.9</SwayFactor>
       <Bulk>12.0</Bulk>
       <Mass>6.0</Mass>
       <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <Plasteel>30</Plasteel>
+      <Steel>70</Steel>
+      <Plasteel>35</Plasteel>
       <ComponentIndustrial>10</ComponentIndustrial>
       <Chemfuel>15</Chemfuel>
     </costList>
@@ -1900,7 +1900,7 @@
       <li Class="CombatExtended.VerbPropertiesCE">
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_8x35mmCharged</defaultProjectile>
+        <defaultProjectile>Bullet_8x50mmCharged</defaultProjectile>
         <warmupTime>1.6</warmupTime>
         <range>75</range>
         <soundCast>Shot_ChargeRifle</soundCast>
@@ -1912,7 +1912,7 @@
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>10</magazineSize>
         <reloadTime>4</reloadTime>
-        <ammoSet>AmmoSet_8x35mmCharged</ammoSet>
+        <ammoSet>AmmoSet_8x50mmCharged</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
         <aiAimMode>AimedShot</aiAimMode>
