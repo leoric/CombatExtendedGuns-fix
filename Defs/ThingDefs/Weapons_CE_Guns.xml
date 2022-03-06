@@ -1902,7 +1902,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_8x50mmCharged</defaultProjectile>
         <warmupTime>1.6</warmupTime>
-        <range>86</range>
+        <range>81</range>
         <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
