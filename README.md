@@ -32,5 +32,6 @@ This mod adds several new firearms designed to take advantage of new CE mechanic
 ### Other
 - 105mm Howitzer
 - Flamethrower
+- Crossbow
 - Flintlock pistol
 - Flintlock musket
