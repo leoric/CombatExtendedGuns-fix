@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-  <ThingDef Name="BaseGun_CE" Abstract="True">
+
+  <!--<ThingDef Name="BaseGun_CE" Abstract="True">
     <category>Item</category>
     <thingClass>ThingWithComps</thingClass>
     <equipmentType>Primary</equipmentType>
@@ -58,7 +59,7 @@
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
     </comps>
-  </ThingDef>
+  </ThingDef>-->
 
   <ThingDef Name="BaseHumanMakeableGun_CE" ParentName="BaseMakeableGun" Abstract="True">
     <weaponTags>
@@ -72,8 +73,8 @@
   <!-- ==================== Crossbow ==================== -->
 
   <ThingDef ParentName="BaseMakeableGun">
-    <defName>CE_Gun_crossbow</defName>
-    <label>Crossbow</label>
+    <defName>CE_Gun_Crossbow</defName>
+    <label>crossbow</label>
     <description>A medieval bow-like armament which launches bolts instead of arrows at relatively fast speeds. Easier to operate and more accurate than a bow in exchange of a lower fire rate.</description>
     <techLevel>Medieval</techLevel>
     <soundInteract>Bow_Large</soundInteract>
@@ -142,7 +143,7 @@
 
   <ThingDef ParentName="BaseMakeableGun">
     <defName>CE_Gun_FlintlockPistol</defName>
-    <label>Flintlock pistol</label>
+    <label>flintlock pistol</label>
     <description>This pistol features a smoothbore barrel and a long, wooden grip ending in a knob. As its name implies, the flintlock pistol is operated by a flintlock mechanism.</description>
     <techLevel>Medieval</techLevel>
     <soundInteract>Interact_Revolver</soundInteract>
@@ -233,7 +234,7 @@
 
   <ThingDef ParentName="BaseMakeableGun">
     <defName>CE_Gun_FlintlockMusket</defName>
-    <label>Flintlock musket</label>
+    <label>flintlock musket</label>
     <description>An ancient pattern musket. As one of the first of its kind, it only has short range and low fire rate.</description>
     <techLevel>Medieval</techLevel>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -333,7 +334,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun_CE">
     <defName>CE_Gun_TaurusJudge</defName>
-    <label>Taurus Judge</label>
+    <label>taurus Judge</label>
     <description>Ancient revolver designed for self-defense. Fires a powerful pistol cartridge as well as small shotgun shells.</description>
     <graphicData>
       <texPath>Things/Weapons/TaurusJudge</texPath>
@@ -1766,6 +1767,7 @@
     <defName>CE_Gun_ChargeLMG</defName>
     <label>L-20 charge LMG</label>
     <description>Charged-shot light machine gun designed for suppression.</description>
+    <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/ChargeLMG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1876,6 +1878,7 @@
     <defName>CE_Gun_ChargeSniperRifle</defName>
     <label>R-11 precision rifle</label>
     <description>Charged-shot sniper rifle equipped with advanced optics for long-range shooting.</description>
+    <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/ChargeSniper</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1977,6 +1980,7 @@
     <defName>CE_Gun_ChargeSMG</defName>
     <label>S-14 charge SMG</label>
     <description>Charged-shot sub-machine gun highly effective in close-quarters combat.</description>
+    <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/ChargePDW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
