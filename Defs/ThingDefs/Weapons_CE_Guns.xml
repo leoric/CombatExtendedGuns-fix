@@ -112,7 +112,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Projectile_CrossbowBolt_Steel</defaultProjectile>
         <warmupTime>1.0</warmupTime>
-        <range>30</range>
+        <range>22</range>
         <soundCast>Shot_CE_Crossbow</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
       </li>
