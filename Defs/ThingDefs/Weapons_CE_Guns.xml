@@ -1,66 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-  <!--<ThingDef Name="BaseGun_CE" Abstract="True">
-    <category>Item</category>
-    <thingClass>ThingWithComps</thingClass>
-    <equipmentType>Primary</equipmentType>
-    <pathCost>10</pathCost>
-    <useHitPoints>True</useHitPoints>
-    <selectable>True</selectable>
-    <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-    </graphicData>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>2</DeteriorationRate>
-      <SellPriceFactor>0.5</SellPriceFactor>
-    </statBases>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <tickerType>Never</tickerType>
-    <techLevel>Industrial</techLevel>
-    <thingCategories>
-      <li>WeaponsRanged</li>
-    </thingCategories>
-    <comps>
-      <li Class="CompProperties_Forbiddable" />
-      <li>
-        <compClass>CompEquippable</compClass>
-      </li>
-    </comps>
-  </ThingDef>
-
-  <ThingDef Name="BaseMakeableGun_CE" ParentName="BaseGun_CE" Abstract="True">
-    <smeltable>true</smeltable>
-    <inspectorTabs>
-      <li>ITab_Art</li>
-    </inspectorTabs>
-    <recipeMaker>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Smith</soundWorking>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
-    </recipeMaker>
-    <comps>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponGun</nameMaker>
-        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
-      </li>
-    </comps>
-  </ThingDef>-->
-
   <ThingDef Name="BaseHumanMakeableGun_CE" ParentName="BaseMakeableGun" Abstract="True">
     <weaponTags>
       <li>Gun</li>
@@ -102,10 +42,16 @@
       <Steel>20</Steel>
       <WoodLog>40</WoodLog>
     </costList>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
       <li>NeolithicRangedHeavy</li>
       <li>NeolithicRangedChief</li>
     </weaponTags>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -173,10 +119,16 @@
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <weaponTags>
+      <li>SimpleGun</li>
       <li>NeolithicRangedHeavy</li>
       <li>NeolithicRangedChief</li>
+      <li>CE_AI_BROOM</li>
       <li>CE_OneHandedWeapon</li>
     </weaponTags>
+    <weaponClasses>
+      <li>RangedLight</li>
+      <li>ShortShots</li>
+    </weaponClasses>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.15,1.25</DrawSize>
@@ -263,10 +215,18 @@
       <WoodLog>20</WoodLog>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
+      <li>SimpleGun</li>
       <li>NeolithicRangedHeavy</li>
       <li>NeolithicRangedChief</li>
+      <li>CE_AI_AR</li>
     </weaponTags>
+    <weaponClasses>
+      <li>LongShots</li>
+    </weaponClasses>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.25,1.4</DrawSize>
@@ -374,12 +334,19 @@
       </li>
       <li Class="CombatExtended.CompProperties_FireModes" />
     </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
       <li>SimpleGun</li>
       <li>CE_Sidearm</li>
       <li>Revolver</li>
       <li>CE_OneHandedWeapon</li>
+      <li>CE_AI_BROOM</li>
     </weaponTags>
+    <weaponClasses>
+      <li>RangedLight</li>
+    </weaponClasses>
     <tools>
       <li Class="CombatExtended.ToolCE">
         <label>grip</label>
@@ -422,6 +389,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
+    <weaponClasses>
+      <li>ShortShots</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>30500</WorkToMake>
       <SightsEfficiency>1</SightsEfficiency>
@@ -451,6 +421,13 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>CE_AI_BROOM</li>
+    </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>10</magazineSize>
@@ -545,6 +522,13 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>CE_AI_AR</li>
+    </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
@@ -621,9 +605,6 @@
       <Mass>3.85</Mass>
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
     </statBases>
-    <weaponTags>
-      <li>SimpleGun</li>
-    </weaponTags>
     <costList>
       <Steel>50</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
@@ -645,6 +626,10 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>CE_AI_AR</li>
+    </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>10</magazineSize>
@@ -736,6 +721,13 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>CE_AI_AR</li>
+    </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>30</magazineSize>
@@ -832,6 +824,13 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>CE_AI_AR</li>
+    </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>60</magazineSize>
@@ -927,6 +926,13 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>CE_AI_AR</li>
+    </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>30</magazineSize>
@@ -994,6 +1000,10 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>LongShots</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>23000</WorkToMake>
       <SightsEfficiency>2.24</SightsEfficiency>
@@ -1031,9 +1041,13 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-    <weaponTags>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponTags Inherit="False">
       <li>SniperRifle</li>
       <li>Bipod_DMR</li>
+      <li>CE_AI_SR</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -1090,6 +1104,10 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>LongShots</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>44500</WorkToMake>
       <SightsEfficiency>3.5</SightsEfficiency>
@@ -1127,9 +1145,13 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-    <weaponTags>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponTags Inherit="False">
       <li>SniperRifle</li>
       <li>Bipod_DMR</li>
+      <li>CE_AI_SR</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -1186,6 +1208,10 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>LongShots</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>44500</WorkToMake>
       <SightsEfficiency>1.0</SightsEfficiency>
@@ -1259,8 +1285,8 @@
       </li>
     </tools>
     <weaponTags>
-      <li>SimpleGun</li>
       <li>Bipod_ATR</li>
+      <li>CE_AI_SR</li>
     </weaponTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
@@ -1281,6 +1307,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>40500</WorkToMake>
       <SightsEfficiency>1</SightsEfficiency>
@@ -1326,8 +1355,13 @@
         <aimedBurstShotCount>5</aimedBurstShotCount>
       </li>
     </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
+      <li>IndustrialGunAdvanced</li>
       <li>CE_MachineGun</li>
+      <li>CE_AI_LMG</li>
       <li>Bipod_LMG</li>
     </weaponTags>
     <recipeMaker>
@@ -1433,8 +1467,13 @@
     <recipeMaker>
       <researchPrerequisite>GasOperation</researchPrerequisite>
     </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
+      <li>IndustrialGunAdvanced</li>
       <li>CE_MachineGun</li>
+      <li>CE_AI_LMG</li>
       <li>Bipod_SAW</li>
     </weaponTags>
     <tools>
@@ -1489,6 +1528,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>36000</WorkToMake>
       <SightsEfficiency>1</SightsEfficiency>
@@ -1534,8 +1576,13 @@
         <aimedBurstShotCount>5</aimedBurstShotCount>
       </li>
     </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
+      <li>IndustrialGunAdvanced</li>
       <li>CE_MachineGun</li>
+      <li>CE_AI_LMG</li>
       <li>Bipod_LMG</li>
     </weaponTags>
     <recipeMaker>
@@ -1593,6 +1640,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>25500</WorkToMake>
       <SightsEfficiency>2.16</SightsEfficiency>
@@ -1609,6 +1659,7 @@
     </costList>
     <weaponTags>
       <li>GunHeavy</li>
+      <li>CE_AI_AOE</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -1671,6 +1722,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>25500</WorkToMake>
       <SightsEfficiency>1.1</SightsEfficiency>
@@ -1687,6 +1741,7 @@
     </costList>
     <weaponTags>
       <li>GunHeavy</li>
+      <li>CE_AI_AOE</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -1773,6 +1828,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>57000</WorkToMake>
       <SightsEfficiency>1.1</SightsEfficiency>
@@ -1821,10 +1879,15 @@
     </comps>
     <weaponTags>
       <li>CE_MachineGun</li>
+      <li>CE_AI_LMG</li>
       <li>AdvancedGun</li>
       <li>SpacerGun</li>
       <li>Bipod_LMG</li>
     </weaponTags>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
       <recipeUsers Inherit="false">
@@ -1884,6 +1947,10 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
+    <weaponClasses>
+      <li>LongShots</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>52000</WorkToMake>
       <SightsEfficiency>2.6</SightsEfficiency>
@@ -1921,12 +1988,17 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-    <weaponTags>
+    <weaponTags Inherit="False">
       <li>SniperRifle</li>
       <li>AdvancedGun</li>
       <li>SpacerGun</li>
+      <li>CE_AI_SR</li>
       <li>Bipod_DMR</li>
     </weaponTags>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
       <recipeUsers Inherit="false">
@@ -1986,6 +2058,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>RangedLight</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>52000</WorkToMake>
       <SightsEfficiency>1.1</SightsEfficiency>
@@ -2035,7 +2110,14 @@
     <weaponTags>
       <li>AdvancedGun</li>
       <li>SpacerGun</li>
+      <li>CE_OneHandedWeapon</li>
+      <li>CE_SMG</li>
+      <li>CE_AI_BROOM</li>
     </weaponTags>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <tools>
       <li Class="CombatExtended.ToolCE">
         <label>stock</label>
@@ -2088,6 +2170,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>25500</WorkToMake>
       <SightsEfficiency>1</SightsEfficiency>
@@ -2104,6 +2189,7 @@
     </costList>
     <weaponTags>
       <li>GunHeavy</li>
+      <li>CE_AI_AOE</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
