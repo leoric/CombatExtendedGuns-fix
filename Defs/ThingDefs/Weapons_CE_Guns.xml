@@ -1,66 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-  <!--<ThingDef Name="BaseGun_CE" Abstract="True">
-    <category>Item</category>
-    <thingClass>ThingWithComps</thingClass>
-    <equipmentType>Primary</equipmentType>
-    <pathCost>10</pathCost>
-    <useHitPoints>True</useHitPoints>
-    <selectable>True</selectable>
-    <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-    </graphicData>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>2</DeteriorationRate>
-      <SellPriceFactor>0.5</SellPriceFactor>
-    </statBases>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <tickerType>Never</tickerType>
-    <techLevel>Industrial</techLevel>
-    <thingCategories>
-      <li>WeaponsRanged</li>
-    </thingCategories>
-    <comps>
-      <li Class="CompProperties_Forbiddable" />
-      <li>
-        <compClass>CompEquippable</compClass>
-      </li>
-    </comps>
-  </ThingDef>
-
-  <ThingDef Name="BaseMakeableGun_CE" ParentName="BaseGun_CE" Abstract="True">
-    <smeltable>true</smeltable>
-    <inspectorTabs>
-      <li>ITab_Art</li>
-    </inspectorTabs>
-    <recipeMaker>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Smith</soundWorking>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
-    </recipeMaker>
-    <comps>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponGun</nameMaker>
-        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
-      </li>
-    </comps>
-  </ThingDef>-->
-
   <ThingDef Name="BaseHumanMakeableGun_CE" ParentName="BaseMakeableGun" Abstract="True">
     <weaponTags>
       <li>Gun</li>
@@ -179,6 +119,7 @@
       <li>SimpleGun</li>
       <li>NeolithicRangedHeavy</li>
       <li>NeolithicRangedChief</li>
+	  <li>CE_AI_BROOM</li>
       <li>CE_OneHandedWeapon</li>
     </weaponTags>
     <weaponClasses>
@@ -275,6 +216,7 @@
       <li>SimpleGun</li>
       <li>NeolithicRangedHeavy</li>
       <li>NeolithicRangedChief</li>
+	  <li>CE_AI_AR</li>
     </weaponTags>
     <weaponClasses>
       <li>LongShots</li>
@@ -391,6 +333,7 @@
       <li>CE_Sidearm</li>
       <li>Revolver</li>
       <li>CE_OneHandedWeapon</li>
+	  <li>CE_AI_BROOM</li>
     </weaponTags>
     <weaponClasses>
       <li>RangedLight</li>
@@ -471,6 +414,7 @@
     </verbs>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
+	  <li>CE_AI_BROOM</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -568,6 +512,7 @@
     </verbs>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
+	  <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -668,6 +613,7 @@
     </verbs>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
+	  <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -762,6 +708,7 @@
     </verbs>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
+	  <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -861,6 +808,7 @@
     </verbs>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
+	  <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -959,6 +907,7 @@
     </verbs>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
+	  <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -1071,6 +1020,7 @@
     <weaponTags Inherit="False">
       <li>SniperRifle</li>
       <li>Bipod_DMR</li>
+	  <li>CE_AI_SR</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -1171,6 +1121,7 @@
     <weaponTags Inherit="False">
       <li>SniperRifle</li>
       <li>Bipod_DMR</li>
+	  <li>CE_AI_SR</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -1305,6 +1256,7 @@
     </tools>
     <weaponTags>
       <li>Bipod_ATR</li>
+	  <li>CE_AI_SR</li>
     </weaponTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
@@ -1376,6 +1328,7 @@
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>CE_MachineGun</li>
+	  <li>CE_AI_LMG</li>
       <li>Bipod_LMG</li>
     </weaponTags>
     <recipeMaker>
@@ -1484,6 +1437,7 @@
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>CE_MachineGun</li>
+	  <li>CE_AI_LMG</li>
       <li>Bipod_SAW</li>
     </weaponTags>
     <tools>
@@ -1589,6 +1543,7 @@
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>CE_MachineGun</li>
+	  <li>CE_AI_LMG</li>
       <li>Bipod_LMG</li>
     </weaponTags>
     <recipeMaker>
@@ -1665,6 +1620,7 @@
     </costList>
     <weaponTags>
       <li>GunHeavy</li>
+	  <li>CE_AI_AOE</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -1746,6 +1702,7 @@
     </costList>
     <weaponTags>
       <li>GunHeavy</li>
+	  <li>CE_AI_AOE</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -1883,6 +1840,8 @@
     </comps>
     <weaponTags>
       <li>CE_MachineGun</li>
+	  <li>CE_AI_LMG</li>
+      <li>AdvancedGun</li>
       <li>SpacerGun</li>
       <li>Bipod_LMG</li>
     </weaponTags>
@@ -1988,7 +1947,9 @@
     </comps>
     <weaponTags Inherit="False">
       <li>SniperRifle</li>
+      <li>AdvancedGun</li>
       <li>SpacerGun</li>
+	  <li>CE_AI_SR</li>
       <li>Bipod_DMR</li>
     </weaponTags>
     <recipeMaker>
@@ -2100,8 +2061,11 @@
       </recipeUsers>
     </recipeMaker>
     <weaponTags>
-      <li>SpacerGun</li>
+      <li>AdvancedGun</li>
+	  <li>SpacerGun</li>
       <li>CE_OneHandedWeapon</li>
+	  <li>CE_SMG</li>
+	  <li>CE_AI_BROOM</li>
     </weaponTags>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -2174,6 +2138,7 @@
     </costList>
     <weaponTags>
       <li>GunHeavy</li>
+	  <li>CE_AI_AOE</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
