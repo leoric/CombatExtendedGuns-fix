@@ -106,6 +106,9 @@
       <li>NeolithicRangedHeavy</li>
       <li>NeolithicRangedChief</li>
     </weaponTags>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -173,10 +176,15 @@
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <weaponTags>
+      <li>SimpleGun</li>
       <li>NeolithicRangedHeavy</li>
       <li>NeolithicRangedChief</li>
       <li>CE_OneHandedWeapon</li>
     </weaponTags>
+    <weaponClasses>
+      <li>RangedLight</li>
+      <li>ShortShots</li>
+    </weaponClasses>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.15,1.25</DrawSize>
@@ -264,9 +272,13 @@
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <weaponTags>
+      <li>SimpleGun</li>
       <li>NeolithicRangedHeavy</li>
       <li>NeolithicRangedChief</li>
     </weaponTags>
+    <weaponClasses>
+      <li>LongShots</li>
+    </weaponClasses>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
         <DrawSize>1.25,1.4</DrawSize>
@@ -380,6 +392,9 @@
       <li>Revolver</li>
       <li>CE_OneHandedWeapon</li>
     </weaponTags>
+    <weaponClasses>
+      <li>RangedLight</li>
+    </weaponClasses>
     <tools>
       <li Class="CombatExtended.ToolCE">
         <label>grip</label>
@@ -422,6 +437,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
+    <weaponClasses>
+      <li>ShortShots</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>30500</WorkToMake>
       <SightsEfficiency>1</SightsEfficiency>
@@ -451,6 +469,9 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>10</magazineSize>
@@ -545,6 +566,9 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
@@ -621,9 +645,6 @@
       <Mass>3.85</Mass>
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
     </statBases>
-    <weaponTags>
-      <li>SimpleGun</li>
-    </weaponTags>
     <costList>
       <Steel>50</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
@@ -645,6 +666,9 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>10</magazineSize>
@@ -736,6 +760,9 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>30</magazineSize>
@@ -832,6 +859,9 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>60</magazineSize>
@@ -927,6 +957,9 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>30</magazineSize>
@@ -994,6 +1027,10 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>LongShots</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>23000</WorkToMake>
       <SightsEfficiency>2.24</SightsEfficiency>
@@ -1031,7 +1068,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-    <weaponTags>
+    <weaponTags Inherit="False">
       <li>SniperRifle</li>
       <li>Bipod_DMR</li>
     </weaponTags>
@@ -1090,6 +1127,10 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>LongShots</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>44500</WorkToMake>
       <SightsEfficiency>3.5</SightsEfficiency>
@@ -1127,7 +1168,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-    <weaponTags>
+    <weaponTags Inherit="False">
       <li>SniperRifle</li>
       <li>Bipod_DMR</li>
     </weaponTags>
@@ -1186,6 +1227,10 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>LongShots</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>44500</WorkToMake>
       <SightsEfficiency>1.0</SightsEfficiency>
@@ -1259,7 +1304,6 @@
       </li>
     </tools>
     <weaponTags>
-      <li>SimpleGun</li>
       <li>Bipod_ATR</li>
     </weaponTags>
     <modExtensions>
@@ -1281,6 +1325,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>40500</WorkToMake>
       <SightsEfficiency>1</SightsEfficiency>
@@ -1327,6 +1374,7 @@
       </li>
     </comps>
     <weaponTags>
+      <li>IndustrialGunAdvanced</li>
       <li>CE_MachineGun</li>
       <li>Bipod_LMG</li>
     </weaponTags>
@@ -1434,6 +1482,7 @@
       <researchPrerequisite>GasOperation</researchPrerequisite>
     </recipeMaker>
     <weaponTags>
+      <li>IndustrialGunAdvanced</li>
       <li>CE_MachineGun</li>
       <li>Bipod_SAW</li>
     </weaponTags>
@@ -1489,6 +1538,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>36000</WorkToMake>
       <SightsEfficiency>1</SightsEfficiency>
@@ -1535,6 +1587,7 @@
       </li>
     </comps>
     <weaponTags>
+      <li>IndustrialGunAdvanced</li>
       <li>CE_MachineGun</li>
       <li>Bipod_LMG</li>
     </weaponTags>
@@ -1593,6 +1646,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>25500</WorkToMake>
       <SightsEfficiency>2.16</SightsEfficiency>
@@ -1671,6 +1727,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>25500</WorkToMake>
       <SightsEfficiency>1.1</SightsEfficiency>
@@ -1773,6 +1832,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>57000</WorkToMake>
       <SightsEfficiency>1.1</SightsEfficiency>
@@ -1821,7 +1883,6 @@
     </comps>
     <weaponTags>
       <li>CE_MachineGun</li>
-      <li>AdvancedGun</li>
       <li>SpacerGun</li>
       <li>Bipod_LMG</li>
     </weaponTags>
@@ -1884,6 +1945,10 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
+    <weaponClasses>
+      <li>LongShots</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>52000</WorkToMake>
       <SightsEfficiency>2.6</SightsEfficiency>
@@ -1921,9 +1986,8 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-    <weaponTags>
+    <weaponTags Inherit="False">
       <li>SniperRifle</li>
-      <li>AdvancedGun</li>
       <li>SpacerGun</li>
       <li>Bipod_DMR</li>
     </weaponTags>
@@ -1986,6 +2050,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>RangedLight</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>52000</WorkToMake>
       <SightsEfficiency>1.1</SightsEfficiency>
@@ -2033,8 +2100,8 @@
       </recipeUsers>
     </recipeMaker>
     <weaponTags>
-      <li>AdvancedGun</li>
       <li>SpacerGun</li>
+      <li>CE_OneHandedWeapon</li>
     </weaponTags>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -2088,6 +2155,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <statBases>
       <WorkToMake>25500</WorkToMake>
       <SightsEfficiency>1</SightsEfficiency>
