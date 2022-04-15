@@ -119,7 +119,7 @@
       <li>SimpleGun</li>
       <li>NeolithicRangedHeavy</li>
       <li>NeolithicRangedChief</li>
-	  <li>CE_AI_BROOM</li>
+      <li>CE_AI_BROOM</li>
       <li>CE_OneHandedWeapon</li>
     </weaponTags>
     <weaponClasses>
@@ -216,7 +216,7 @@
       <li>SimpleGun</li>
       <li>NeolithicRangedHeavy</li>
       <li>NeolithicRangedChief</li>
-	  <li>CE_AI_AR</li>
+      <li>CE_AI_AR</li>
     </weaponTags>
     <weaponClasses>
       <li>LongShots</li>
@@ -333,7 +333,7 @@
       <li>CE_Sidearm</li>
       <li>Revolver</li>
       <li>CE_OneHandedWeapon</li>
-	  <li>CE_AI_BROOM</li>
+      <li>CE_AI_BROOM</li>
     </weaponTags>
     <weaponClasses>
       <li>RangedLight</li>
@@ -414,7 +414,7 @@
     </verbs>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-	  <li>CE_AI_BROOM</li>
+      <li>CE_AI_BROOM</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -512,7 +512,7 @@
     </verbs>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-	  <li>CE_AI_AR</li>
+      <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -613,7 +613,7 @@
     </verbs>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-	  <li>CE_AI_AR</li>
+      <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -708,7 +708,7 @@
     </verbs>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-	  <li>CE_AI_AR</li>
+      <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -808,7 +808,7 @@
     </verbs>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-	  <li>CE_AI_AR</li>
+      <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -907,7 +907,7 @@
     </verbs>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-	  <li>CE_AI_AR</li>
+      <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -1020,7 +1020,7 @@
     <weaponTags Inherit="False">
       <li>SniperRifle</li>
       <li>Bipod_DMR</li>
-	  <li>CE_AI_SR</li>
+      <li>CE_AI_SR</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -1121,7 +1121,7 @@
     <weaponTags Inherit="False">
       <li>SniperRifle</li>
       <li>Bipod_DMR</li>
-	  <li>CE_AI_SR</li>
+      <li>CE_AI_SR</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -1256,7 +1256,7 @@
     </tools>
     <weaponTags>
       <li>Bipod_ATR</li>
-	  <li>CE_AI_SR</li>
+      <li>CE_AI_SR</li>
     </weaponTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
@@ -1328,7 +1328,7 @@
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>CE_MachineGun</li>
-	  <li>CE_AI_LMG</li>
+      <li>CE_AI_LMG</li>
       <li>Bipod_LMG</li>
     </weaponTags>
     <recipeMaker>
@@ -1437,7 +1437,7 @@
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>CE_MachineGun</li>
-	  <li>CE_AI_LMG</li>
+      <li>CE_AI_LMG</li>
       <li>Bipod_SAW</li>
     </weaponTags>
     <tools>
@@ -1543,7 +1543,7 @@
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>CE_MachineGun</li>
-	  <li>CE_AI_LMG</li>
+      <li>CE_AI_LMG</li>
       <li>Bipod_LMG</li>
     </weaponTags>
     <recipeMaker>
@@ -1620,7 +1620,7 @@
     </costList>
     <weaponTags>
       <li>GunHeavy</li>
-	  <li>CE_AI_AOE</li>
+      <li>CE_AI_AOE</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -1702,7 +1702,7 @@
     </costList>
     <weaponTags>
       <li>GunHeavy</li>
-	  <li>CE_AI_AOE</li>
+      <li>CE_AI_AOE</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -1840,7 +1840,7 @@
     </comps>
     <weaponTags>
       <li>CE_MachineGun</li>
-	  <li>CE_AI_LMG</li>
+      <li>CE_AI_LMG</li>
       <li>AdvancedGun</li>
       <li>SpacerGun</li>
       <li>Bipod_LMG</li>
@@ -1949,7 +1949,7 @@
       <li>SniperRifle</li>
       <li>AdvancedGun</li>
       <li>SpacerGun</li>
-	  <li>CE_AI_SR</li>
+      <li>CE_AI_SR</li>
       <li>Bipod_DMR</li>
     </weaponTags>
     <recipeMaker>
@@ -2062,10 +2062,10 @@
     </recipeMaker>
     <weaponTags>
       <li>AdvancedGun</li>
-	  <li>SpacerGun</li>
+      <li>SpacerGun</li>
       <li>CE_OneHandedWeapon</li>
-	  <li>CE_SMG</li>
-	  <li>CE_AI_BROOM</li>
+      <li>CE_SMG</li>
+      <li>CE_AI_BROOM</li>
     </weaponTags>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -2138,7 +2138,7 @@
     </costList>
     <weaponTags>
       <li>GunHeavy</li>
-	  <li>CE_AI_AOE</li>
+      <li>CE_AI_AOE</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
