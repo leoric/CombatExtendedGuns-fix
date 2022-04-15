@@ -42,6 +42,9 @@
       <Steel>20</Steel>
       <WoodLog>40</WoodLog>
     </costList>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
       <li>NeolithicRangedHeavy</li>
       <li>NeolithicRangedChief</li>
@@ -119,7 +122,7 @@
       <li>SimpleGun</li>
       <li>NeolithicRangedHeavy</li>
       <li>NeolithicRangedChief</li>
-      <li>CE_AI_BROOM</li>
+	  <li>CE_AI_BROOM</li>
       <li>CE_OneHandedWeapon</li>
     </weaponTags>
     <weaponClasses>
@@ -212,11 +215,14 @@
       <WoodLog>20</WoodLog>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
       <li>SimpleGun</li>
       <li>NeolithicRangedHeavy</li>
       <li>NeolithicRangedChief</li>
-      <li>CE_AI_AR</li>
+	  <li>CE_AI_AR</li>
     </weaponTags>
     <weaponClasses>
       <li>LongShots</li>
@@ -328,12 +334,15 @@
       </li>
       <li Class="CombatExtended.CompProperties_FireModes" />
     </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
       <li>SimpleGun</li>
       <li>CE_Sidearm</li>
       <li>Revolver</li>
       <li>CE_OneHandedWeapon</li>
-      <li>CE_AI_BROOM</li>
+	  <li>CE_AI_BROOM</li>
     </weaponTags>
     <weaponClasses>
       <li>RangedLight</li>
@@ -412,9 +421,12 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-      <li>CE_AI_BROOM</li>
+	  <li>CE_AI_BROOM</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -510,9 +522,12 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-      <li>CE_AI_AR</li>
+	  <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -613,7 +628,7 @@
     </verbs>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-      <li>CE_AI_AR</li>
+	  <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -706,9 +721,12 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-      <li>CE_AI_AR</li>
+	  <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -806,9 +824,12 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-      <li>CE_AI_AR</li>
+	  <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -905,9 +926,12 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-      <li>CE_AI_AR</li>
+	  <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -1017,10 +1041,13 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags Inherit="False">
       <li>SniperRifle</li>
       <li>Bipod_DMR</li>
-      <li>CE_AI_SR</li>
+	  <li>CE_AI_SR</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -1118,10 +1145,13 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags Inherit="False">
       <li>SniperRifle</li>
       <li>Bipod_DMR</li>
-      <li>CE_AI_SR</li>
+	  <li>CE_AI_SR</li>
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -1256,7 +1286,7 @@
     </tools>
     <weaponTags>
       <li>Bipod_ATR</li>
-      <li>CE_AI_SR</li>
+	  <li>CE_AI_SR</li>
     </weaponTags>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
@@ -1325,10 +1355,13 @@
         <aimedBurstShotCount>5</aimedBurstShotCount>
       </li>
     </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>CE_MachineGun</li>
-      <li>CE_AI_LMG</li>
+	  <li>CE_AI_LMG</li>
       <li>Bipod_LMG</li>
     </weaponTags>
     <recipeMaker>
@@ -1434,10 +1467,13 @@
     <recipeMaker>
       <researchPrerequisite>GasOperation</researchPrerequisite>
     </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>CE_MachineGun</li>
-      <li>CE_AI_LMG</li>
+	  <li>CE_AI_LMG</li>
       <li>Bipod_SAW</li>
     </weaponTags>
     <tools>
@@ -1540,10 +1576,13 @@
         <aimedBurstShotCount>5</aimedBurstShotCount>
       </li>
     </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>CE_MachineGun</li>
-      <li>CE_AI_LMG</li>
+	  <li>CE_AI_LMG</li>
       <li>Bipod_LMG</li>
     </weaponTags>
     <recipeMaker>
@@ -1620,7 +1659,7 @@
     </costList>
     <weaponTags>
       <li>GunHeavy</li>
-      <li>CE_AI_AOE</li>
+	  <li>CE_AI_AOE</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -1702,7 +1741,7 @@
     </costList>
     <weaponTags>
       <li>GunHeavy</li>
-      <li>CE_AI_AOE</li>
+	  <li>CE_AI_AOE</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -1840,11 +1879,15 @@
     </comps>
     <weaponTags>
       <li>CE_MachineGun</li>
-      <li>CE_AI_LMG</li>
+	  <li>CE_AI_LMG</li>
       <li>AdvancedGun</li>
       <li>SpacerGun</li>
       <li>Bipod_LMG</li>
     </weaponTags>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
       <recipeUsers Inherit="false">
@@ -1949,9 +1992,13 @@
       <li>SniperRifle</li>
       <li>AdvancedGun</li>
       <li>SpacerGun</li>
-      <li>CE_AI_SR</li>
+	  <li>CE_AI_SR</li>
       <li>Bipod_DMR</li>
     </weaponTags>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
       <recipeUsers Inherit="false">
@@ -2062,11 +2109,15 @@
     </recipeMaker>
     <weaponTags>
       <li>AdvancedGun</li>
-      <li>SpacerGun</li>
+	  <li>SpacerGun</li>
       <li>CE_OneHandedWeapon</li>
-      <li>CE_SMG</li>
-      <li>CE_AI_BROOM</li>
+	  <li>CE_SMG</li>
+	  <li>CE_AI_BROOM</li>
     </weaponTags>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
     <tools>
       <li Class="CombatExtended.ToolCE">
         <label>stock</label>
@@ -2138,7 +2189,7 @@
     </costList>
     <weaponTags>
       <li>GunHeavy</li>
-      <li>CE_AI_AOE</li>
+	  <li>CE_AI_AOE</li>
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
