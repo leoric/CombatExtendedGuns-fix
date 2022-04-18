@@ -1190,8 +1190,8 @@
     </tools>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawSize>1.55,1.40</DrawSize>
-        <DrawOffset>0.25,0.0</DrawOffset>
+        <DrawSize>1.6,1.40</DrawSize>
+        <DrawOffset>0.30,-0.05</DrawOffset>
       </li>
     </modExtensions>
   </ThingDef>
