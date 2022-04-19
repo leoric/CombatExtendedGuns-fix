@@ -1092,14 +1092,14 @@
     </modExtensions>
   </ThingDef>
 
-  <!-- ==================== Tac-50 ==================== -->
+  <!-- ==================== Hécate II ==================== -->
 
   <ThingDef ParentName="BaseHumanMakeableGun_CE">
-    <defName>CE_Gun_TacFifty</defName>
-    <label>Tac-50</label>
+    <defName>CE_Gun_HecateTwo</defName>
+    <label>Hécate II</label>
     <description>Ancient bolt-action anti-materiel rifle. Combines a large caliber cartridge with a high-magnification scope for sniping at extreme range.</description>
     <graphicData>
-      <texPath>Things/Weapons/Tac50</texPath>
+      <texPath>Things/Weapons/HécateII</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -1108,18 +1108,18 @@
       <li>RangedHeavy</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>44500</WorkToMake>
+      <WorkToMake>44000</WorkToMake>
       <SightsEfficiency>3.5</SightsEfficiency>
-      <ShotSpread>0.02</ShotSpread>
-      <SwayFactor>1.92</SwayFactor>
-      <Bulk>15.48</Bulk>
-      <Mass>11.80</Mass>
+      <ShotSpread>0.03</ShotSpread>
+      <SwayFactor>2.07</SwayFactor>
+      <Bulk>14.80</Bulk>
+      <Mass>14.50</Mass>
       <RangedWeapon_Cooldown>1.38</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>90</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
-      <Chemfuel>20</Chemfuel>
+      <Steel>80</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+      <Chemfuel>10</Chemfuel>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -1135,7 +1135,7 @@
     </verbs>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
-        <magazineSize>5</magazineSize>
+        <magazineSize>7</magazineSize>
         <reloadTime>4</reloadTime>
         <ammoSet>AmmoSet_50BMG</ammoSet>
       </li>
@@ -1190,8 +1190,8 @@
     </tools>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawSize>1.55,1.40</DrawSize>
-        <DrawOffset>0.25,0.0</DrawOffset>
+        <DrawSize>1.6,1.40</DrawSize>
+        <DrawOffset>0.30,-0.05</DrawOffset>
       </li>
     </modExtensions>
   </ThingDef>
