@@ -19,7 +19,7 @@ This mod adds several new firearms designed to take advantage of new CE mechanic
 - PTRS
 ### Sniper rifles
 - SVD
-- Tac-50
+- Hécate II
 - R-11 charge sniper rifle
 ### Machine guns
 - M60
