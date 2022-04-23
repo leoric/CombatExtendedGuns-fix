@@ -1097,7 +1097,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun_CE">
     <defName>CE_Gun_HecateTwo</defName>
     <label>Hécate II</label>
-    <description>Ancient bolt-action anti-materiel rifle. Combines a large caliber cartridge with a high-magnification scope for sniping at extreme range.</description>
+    <description>Ancient bolt-action anti-materiel rifle. Combines a large caliber cartridge with a high-magnification scope for sniping at extreme range. Comes with a quick detachable stock for ease of transport.</description>
     <graphicData>
       <texPath>Things/Weapons/HécateII</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1108,16 +1108,16 @@
       <li>RangedHeavy</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>44000</WorkToMake>
+      <WorkToMake>45000</WorkToMake>
       <SightsEfficiency>3.5</SightsEfficiency>
       <ShotSpread>0.03</ShotSpread>
       <SwayFactor>2.07</SwayFactor>
-      <Bulk>14.80</Bulk>
+      <Bulk>12.40</Bulk>
       <Mass>14.50</Mass>
       <RangedWeapon_Cooldown>1.38</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>100</Steel>
+      <Steel>95</Steel>
       <ComponentIndustrial>6</ComponentIndustrial>
       <Chemfuel>15</Chemfuel>
     </costList>
@@ -2051,7 +2051,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun_CE">
     <defName>CE_Gun_ChargeSMG</defName>
     <label>S-14 charge SMG</label>
-    <description>Charged-shot sub-machine gun highly effective in close-quarters combat.</description>
+    <description>Charged-shot bullpup sub-machine gun highly effective in close-quarters combat.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/ChargePDW</texPath>
