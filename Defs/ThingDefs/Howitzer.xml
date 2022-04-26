@@ -18,7 +18,7 @@
     </graphicData>
     <statBases>
       <MaxHitPoints>400</MaxHitPoints>
-      <WorkToMake>33500</WorkToMake>
+      <WorkToBuild>33500</WorkToBuild>
       <Mass>1520</Mass>
       <Bulk>1000</Bulk>
     </statBases>
