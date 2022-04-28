@@ -919,7 +919,7 @@
         <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
         <burstShotCount>6</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <warmupTime>0.6</warmupTime>
+        <warmupTime>0.85</warmupTime>
         <range>40</range>
         <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
