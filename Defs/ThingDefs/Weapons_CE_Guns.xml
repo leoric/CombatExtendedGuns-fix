@@ -114,9 +114,8 @@
       <researchPrerequisite>Gunpowder</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <Steel>20</Steel>
-      <WoodLog>10</WoodLog>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>25</Steel>
+      <WoodLog>15</WoodLog>
     </costList>
     <weaponTags>
       <li>SimpleGun</li>
@@ -211,9 +210,8 @@
       <researchPrerequisite>Gunpowder</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <Steel>60</Steel>
-      <WoodLog>20</WoodLog>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>65</Steel>
+      <WoodLog>30</WoodLog>
     </costList>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
