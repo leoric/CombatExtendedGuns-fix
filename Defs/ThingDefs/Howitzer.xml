@@ -22,6 +22,10 @@
       <Mass>1520</Mass>
       <Bulk>1000</Bulk>
     </statBases>
+    <costList>
+      <Steel>400</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
     <costListForDifficulty>
       <difficultyVar>classicMortars</difficultyVar>
       <invert>true</invert>
