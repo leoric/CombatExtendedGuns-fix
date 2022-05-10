@@ -26,6 +26,15 @@
       <Steel>400</Steel>
       <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
+    <costListForDifficulty>
+      <difficultyVar>classicMortars</difficultyVar>
+      <invert>true</invert>
+      <costList>
+        <ComponentIndustrial>8</ComponentIndustrial>
+        <ReinforcedBarrel>1</ReinforcedBarrel>
+      </costList>
+      <Steel>250</Steel>
+    </costListForDifficulty>
     <tradeTags>
       <li>CE_Turret</li>
     </tradeTags>
