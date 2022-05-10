@@ -32,8 +32,8 @@
       <costList>
         <ComponentIndustrial>8</ComponentIndustrial>
         <ReinforcedBarrel>1</ReinforcedBarrel>
+        <Steel>250</Steel>
       </costList>
-      <Steel>250</Steel>
     </costListForDifficulty>
     <tradeTags>
       <li>CE_Turret</li>
