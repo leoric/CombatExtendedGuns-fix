@@ -1094,7 +1094,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun_CE">
     <defName>CE_Gun_HecateTwo</defName>
-    <label>Hécate II</label>
+    <label>Hecate II</label>
     <description>Ancient bolt-action anti-materiel rifle. Combines a large caliber cartridge with a high-magnification scope for sniping at extreme range. Comes with a quick detachable stock for ease of transport.</description>
     <graphicData>
       <texPath>Things/Weapons/HécateII</texPath>
