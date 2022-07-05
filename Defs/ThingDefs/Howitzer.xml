@@ -52,6 +52,7 @@
     <size>(3,3)</size>
     <fillPercent>0.85</fillPercent>
     <stuffCategories Inherit="False"/>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <researchPrerequisites>
       <li>CE_TurretHeavyWeapons</li>
       <li>Mortars</li>
