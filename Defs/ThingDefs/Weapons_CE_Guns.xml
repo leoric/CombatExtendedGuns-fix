@@ -514,7 +514,7 @@
         <burstShotCount>6</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <warmupTime>1.1</warmupTime>
-        <range>62</range>
+        <range>55</range>
         <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
