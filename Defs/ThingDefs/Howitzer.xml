@@ -76,6 +76,7 @@
       <MarketValue>3500</MarketValue>
       <SightsEfficiency>0.5</SightsEfficiency>
       <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
+      <Mass>1000</Mass>
     </statBases>
     <weaponTags>
       <li>TurretGun</li>
