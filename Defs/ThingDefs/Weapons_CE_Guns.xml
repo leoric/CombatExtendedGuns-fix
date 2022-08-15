@@ -153,7 +153,7 @@
         <ammoSet>AmmoSet_SlowMusketBall</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
-        <aiAimMode>AimedShot</aiAimMode>
+        <aiAimMode>Snapshot</aiAimMode>
       </li>
     </comps>
     <tools>
@@ -330,7 +330,9 @@
         <reloadTime>4.6</reloadTime>
         <ammoSet>AmmoSet_45Colt410Bore_SB</ammoSet>
       </li>
-      <li Class="CombatExtended.CompProperties_FireModes" />
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiAimMode>Snapshot</aiAimMode>
+      </li>
     </comps>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
@@ -434,6 +436,7 @@
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
         <aimedBurstShotCount>2</aimedBurstShotCount>
+        <aiAimMode>Snapshot</aiAimMode>
       </li>
     </comps>
     <recipeMaker>
@@ -939,7 +942,7 @@
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
         <aiUseBurstMode>false</aiUseBurstMode>
-        <aiAimMode>AimedShot</aiAimMode>
+        <aiAimMode>Snapshot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
     </comps>
@@ -2097,6 +2100,7 @@
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
         <aimedBurstShotCount>3</aimedBurstShotCount>
+        <aiAimMode>Snapshot</aiAimMode>
       </li>
     </comps>
     <recipeMaker>
