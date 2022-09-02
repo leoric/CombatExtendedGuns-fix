@@ -1833,16 +1833,16 @@
     </weaponClasses>
     <statBases>
       <WorkToMake>17000</WorkToMake>
-      <Mass>0.75</Mass>
-      <Bulk>2.00</Bulk>
-      <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>0.92</SwayFactor>
+      <Mass>1.0</Mass>
+      <Bulk>2.25</Bulk>
+      <ShotSpread>0.15</ShotSpread>
+      <SwayFactor>1.08</SwayFactor>
       <SightsEfficiency>1.10</SightsEfficiency>
       <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>20</Steel>
-      <Plasteel>15</Plasteel>
+      <Plasteel>20</Plasteel>
       <Chemfuel>5</Chemfuel>
       <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
@@ -1965,7 +1965,7 @@
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
-        <magazineSize>15</magazineSize>
+        <magazineSize>20</magazineSize>
         <reloadTime>4.5</reloadTime>
         <ammoSet>AmmoSet_12GaugeCharged</ammoSet>
       </li>
