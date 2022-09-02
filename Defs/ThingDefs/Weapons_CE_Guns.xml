@@ -1824,7 +1824,7 @@
     <description>A charged-shot pistol, commonly used by glitterworld police forces and mercenaries as a sidearm.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
-      <texPath>Things/Weapons/P3ChargePistol</texPath>
+      <texPath>Things/Weapons/ChargePistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -1924,7 +1924,7 @@
     <description>A charged-shot shotgun, designed for maximum lethality in close-quarters combat.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
-      <texPath>Things/Weapons/S9ChargeShotgun</texPath>
+      <texPath>Things/Weapons/ChargeShotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -2155,7 +2155,7 @@
       <li>RangedHeavy</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>52000</WorkToMake>
+      <WorkToMake>50500</WorkToMake>
       <SightsEfficiency>2.6</SightsEfficiency>
       <ShotSpread>0.03</ShotSpread>
       <SwayFactor>1.9</SwayFactor>
@@ -2165,8 +2165,8 @@
       <NightVisionEfficiency_Weapon>0.4</NightVisionEfficiency_Weapon>
     </statBases>
     <costList>
-      <Steel>70</Steel>
-      <Plasteel>35</Plasteel>
+      <Steel>60</Steel>
+      <Plasteel>30</Plasteel>
       <ComponentIndustrial>10</ComponentIndustrial>
       <Chemfuel>15</Chemfuel>
     </costList>
@@ -2266,7 +2266,7 @@
       <li>RangedHeavy</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>57000</WorkToMake>
+      <WorkToMake>57500</WorkToMake>
       <SightsEfficiency>1.1</SightsEfficiency>
       <ShotSpread>0.05</ShotSpread>
       <SwayFactor>1.26</SwayFactor>
@@ -2275,8 +2275,8 @@
       <RangedWeapon_Cooldown>0.56</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>65</Steel>
-      <Plasteel>30</Plasteel>
+      <Steel>70</Steel>
+      <Plasteel>35</Plasteel>
       <ComponentIndustrial>11</ComponentIndustrial>
       <Chemfuel>15</Chemfuel>
     </costList>
