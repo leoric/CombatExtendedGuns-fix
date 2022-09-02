@@ -6,11 +6,13 @@ This mod adds several new firearms designed to take advantage of new CE mechanic
 ## Currently included:
 ### Pistols
 - Taurus Judge
+- P-3 Charge Pistol
 ### SMG's
 - AKS-74U
 - S-14 charge SMG
 ### Shotguns
 - USAS-12
+- S-9 Charge Shotgun
 ### Assault/battle rifles
 - AK-12
 - AK-47
