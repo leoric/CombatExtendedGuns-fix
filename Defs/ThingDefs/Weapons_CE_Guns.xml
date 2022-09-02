@@ -1965,7 +1965,7 @@
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
-        <magazineSize>20</magazineSize>
+        <magazineSize>15</magazineSize>
         <reloadTime>4.5</reloadTime>
         <ammoSet>AmmoSet_12GaugeCharged</ammoSet>
       </li>
