@@ -2131,7 +2131,7 @@
     <description>Charged-shot bullpup sub-machine gun highly effective in close-quarters combat.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
-      <texPath>Things/Weapons/ChargePDW</texPath>
+      <texPath>Things/Weapons/ChargeSMG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
