@@ -2484,18 +2484,18 @@
       <li>RangedHeavy</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>60500</WorkToMake>
-      <SightsEfficiency>3.2</SightsEfficiency>
+      <WorkToMake>64000</WorkToMake>
+      <SightsEfficiency>3.50</SightsEfficiency>
       <ShotSpread>0.03</ShotSpread>
-      <SwayFactor>1.62</SwayFactor>
-      <Bulk>15.40</Bulk>
-      <Mass>8.0</Mass>
-      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+      <SwayFactor>1.76</SwayFactor>
+      <Bulk>15.0</Bulk>
+      <Mass>10.0</Mass>
+      <RangedWeapon_Cooldown>0.59</RangedWeapon_Cooldown>
       <NightVisionEfficiency_Weapon>0.4</NightVisionEfficiency_Weapon>
     </statBases>
     <costList>
-      <Steel>75</Steel>
-      <Plasteel>35</Plasteel>
+      <Steel>80</Steel>
+      <Plasteel>40</Plasteel>
       <ComponentIndustrial>11</ComponentIndustrial>
       <Chemfuel>20</Chemfuel>
     </costList>
@@ -2504,7 +2504,7 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_12x72mmCharged</defaultProjectile>
-        <warmupTime>3.8</warmupTime>
+        <warmupTime>4.05</warmupTime>
         <range>86</range>
         <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
