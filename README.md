@@ -5,7 +5,6 @@ This mod adds several new firearms designed to take advantage of new CE mechanic
 
 ## Currently included:
 ### Pistols
-- Flintlock pistol
 - Taurus Judge
 - P-3 charge pistol
 ### SMG's
@@ -15,7 +14,6 @@ This mod adds several new firearms designed to take advantage of new CE mechanic
 - USAS-12
 - S-9 charge shotgun
 ### Assault/battle rifles
-- Flintlock musket
 - Winchester 94
 - SKS
 - AK-47
@@ -37,5 +35,7 @@ This mod adds several new firearms designed to take advantage of new CE mechanic
 - RPG-7
 ### Other
 - Crossbow
+- Flintlock pistol
+- Flintlock musket
 - Flamethrower
 - 105mm Howitzer
