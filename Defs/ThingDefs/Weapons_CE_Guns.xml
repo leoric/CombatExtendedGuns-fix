@@ -1296,11 +1296,11 @@
     </modExtensions>
   </ThingDef>
 
-  <!-- ==================== M60e6 machine gun ==================== -->
+  <!-- ==================== M60E6 machine gun ==================== -->
 
   <ThingDef ParentName="BaseHumanMakeableGun_CE">
     <defName>CE_Gun_MSixty</defName>
-    <label>M60e6</label>
+    <label>M60E6</label>
     <description>A belt-fed general-purpose machine gun. Lots of firepower but heavy and cumbersome to carry around. Commonly nicknamed "The Pig".</description>
     <graphicData>
       <texPath>Things/Weapons/M60</texPath>
