@@ -1248,7 +1248,7 @@
     </thingSetMakerTags>
     <weaponTags Inherit="False">
       <li>SniperRifle</li>
-      <li>Bipod_DMR</li>
+      <li>Bipod_AMR</li>
       <li>CE_AI_SR</li>
     </weaponTags>
     <recipeMaker>
@@ -2526,7 +2526,7 @@
       <li>AdvancedGun</li>
       <li>SpacerGun</li>
       <li>CE_AI_SR</li>
-      <li>Bipod_DMR</li>
+      <li>Bipod_AMR</li>
     </weaponTags>
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
