@@ -116,6 +116,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>3.59</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_SlowMusketBall</defaultProjectile>
@@ -211,6 +212,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>2.55</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_FastMusketBall</defaultProjectile>
@@ -317,6 +319,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>3.17</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_45Colt_FMJ</defaultProjectile>
@@ -405,6 +408,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>2.37</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_44Magnum_HV_FMJ</defaultProjectile>
@@ -715,6 +719,7 @@
     </recipeMaker>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>1.73</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
@@ -1119,6 +1124,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>1.94</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x54mmR_FMJ</defaultProjectile>
@@ -1222,6 +1228,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>2.35</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_50BMG_FMJ</defaultProjectile>
@@ -1326,6 +1333,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>2.48</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_145x114mm_FMJ</defaultProjectile>
@@ -1843,8 +1851,8 @@
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
-        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <recoilAmount>2.93</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
@@ -1946,6 +1954,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>3.10</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_10x18mmCharged</defaultProjectile>
@@ -2046,6 +2055,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>2.85</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_12GaugeCharged</defaultProjectile>
@@ -2270,6 +2280,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>1.55</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_8x50mmCharged</defaultProjectile>
@@ -2500,6 +2511,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>2.81</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_12x72mmCharged</defaultProjectile>
@@ -2613,8 +2625,8 @@
     </weaponTags>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
-        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <recoilAmount>0.35</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Flamethrower_Prometheum</defaultProjectile>
         <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
