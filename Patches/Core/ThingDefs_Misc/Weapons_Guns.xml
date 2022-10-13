@@ -96,7 +96,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Gun_LMG"]/label</xpath>
     <value>
-      <label>Degtyarev DP</label>
+      <label>Bren Mk4</label>
     </value>
   </Operation>
 
