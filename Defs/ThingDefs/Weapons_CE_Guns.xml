@@ -2045,7 +2045,7 @@
       <ShotSpread>0.14</ShotSpread>
       <SwayFactor>1.25</SwayFactor>
       <SightsEfficiency>1.10</SightsEfficiency>
-      <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>50</Steel>
