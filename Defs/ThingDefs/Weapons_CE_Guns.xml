@@ -2039,7 +2039,7 @@
       <li>ShortShots</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>50000</WorkToMake>
+      <WorkToMake>39500</WorkToMake>
       <Mass>4.0</Mass>
       <Bulk>8.50</Bulk>
       <ShotSpread>0.14</ShotSpread>
@@ -2263,7 +2263,7 @@
       <li>RangedHeavy</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>51000</WorkToMake>
+      <WorkToMake>50500</WorkToMake>
       <SightsEfficiency>2.6</SightsEfficiency>
       <ShotSpread>0.03</ShotSpread>
       <SwayFactor>1.9</SwayFactor>
@@ -2273,7 +2273,7 @@
       <NightVisionEfficiency_Weapon>0.4</NightVisionEfficiency_Weapon>
     </statBases>
     <costList>
-      <Steel>65</Steel>
+      <Steel>60</Steel>
       <Plasteel>30</Plasteel>
       <ComponentIndustrial>10</ComponentIndustrial>
       <Chemfuel>15</Chemfuel>
